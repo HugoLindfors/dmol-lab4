@@ -7,6 +7,7 @@ current_state = START_STATE;
 
 for i = 1 : length(input_string)
   symbol = str2double(input_string(i));
-  if symbol; current_state = ~current_state; end
+  if symbol, current_state = ~current_state;
+  end
 end
 end
