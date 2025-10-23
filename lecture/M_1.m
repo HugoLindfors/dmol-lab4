@@ -1,7 +1,7 @@
 % M_1 is intended to imitate a finite automation from a lecture that accepts all strings with an even number of 1's and reject everything else.
 function current_state = M_1(input_string)
 
-START_STATE = true;
+START_STATE = true; % q_1 = 1
 
 current_state = START_STATE;
 
